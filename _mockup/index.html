@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Glutenfreeinzurich.ch</title>
+
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="https://npmcdn.com/griddy.css@1.0.0/dist/griddy.min.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="./assets/css/reset.css" rel="stylesheet">
+        <link href="./assets/css/style.css" rel="stylesheet">
+
+        <script>
+            document.addEventListener("scroll", function(){
+                if(document.getElementsByClassName("top") && window.pageYOffset > 290){
+                    document.getElementsByClassName("top")[0].classList.add("white");
+                }
+
+                if(document.getElementsByClassName("top") && window.pageYOffset < 290){
+                    document.getElementsByClassName("top")[0].classList.remove("white");
+                }
+
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="top griddy">
+            <div class="griddy-col-10 griddy-offset-1 topRow">
+                <img src="assets/img/LogoSmallWhite.png" class="logo"/>
+                <img src="assets/img/LogoSmallBlue.png" class="logoBlue"/>
+
+                <ul>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Idee</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="teaser griddy">
+            <div class="griddy-col-10 griddy-offset-1 slogan">
+                Delicous glutenfree meals in zurich
+            </div>
+
+            <div class="blend">
+
+            </div>
+        </div>
+
+
+<!--
+        <iframe src="https://www.google.com/maps/d/embed?mid=1b5RzpqUoOhzjJlpLQw137sC8HWw"
+                class="map"
+                frameborder="0"></iframe>
+-->
+        <div class="description griddy">
+            <div class="griddy-col-10 griddy-offset-1">
+                <img src="assets/img/eli.jpg">
+
+                <h1>Hello!</h1>
+                <hr/>
+                <p>Welcome to my gluten free map of Zurich. <br/><br/>
+                I collect all locations that offer gluten free food, like: </p>
+                <ul>
+                    <li>gluten free restaurant</li>
+                    <li>gluten free take away</li>
+                    <li>gluten free hotel</li>
+                    <li>gluten free supermarket</li>
+                    <li>gluten free grocery and many more.</li>
+                </ul>
+
+                <p>For the locations I have personally tested I give advice and tipps on what I would suggest to eat and if they
+                    have a special gluten free menue.</p>
+
+            </div>
+
+        </div>
+        <h2> Gluten Free Map Zurich </h2>
+
+
+        <div class="twitter">
+            <h1> Gluten Free in Zurich </h1>
+            <p> Do you like the map? Share your experiences with me. Please send me your feedback via mail:
+                info@glutenfreeinzurich.ch </p>
+        </div>
+    </body>
+
+</html>

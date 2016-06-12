@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+.top{
+    width:100%;
+    height:64px;
+    background-color:rgba(255,255,255,0);
+    font-size:44px;
+    color: #e6e6e6;
+    position: fixed;
+    z-index: 10;
+    transition: all 0.5s;
+    border-bottom: solid 1px rgba(60,60,60,0);
+    color: #e6e6e6;
+}
+
+.topRow{
+    position: relative;
+}
+
+.top.white{
+    background-color:rgba(255,255,255,1);
+    border-bottom: solid 1px rgba(60,60,60,0.4);
+    color: #126094;
+}
+
+.top .logo{
+    width: 44px;
+    height: 44px;
+    margin-top: 9px;
+    position: absolute;
+}
+
+.top .logoBlue{
+    width: 44px;
+    height: 44px;
+    margin-top: 9px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.top.white .logoBlue{
+    opacity: 1;
+}
+
+.top ul{
+    font-size: 12px;
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    height: 64px;
+    width: 100%;
+    text-align: right;
+    color: inherit;
+}
+
+.top ul li{
+    display:inline;
+    padding-left: 20px;
+    line-height: 63px;
+}
+
+.top ul li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.teaser{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    background-color: #272727;
+    background-image: url("./img/teaser.jpg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teaser .blend{
+    background-color: rgba(50,50,50,0.4);
+    width: 100vw;
+    height: 100vh;
+}
+
+.teaser .slogan{
+    position:absolute;
+    top:40%;
+    line-height: 60px;
+    color:rgba(255,255,255,0.9);
+    text-align: center;
+    font-size: 60px;
+    font-family: "Roboto Slab";
+
+}
+
+.map{
+    padding-top: 18px;
+    display: block;
+}
+
+body{
+    width:100%;
+    height:100%;
+    background-color:#ffffff;
+    font-size:16px;
+    font-family: Roboto;
+    color:#000608;
+    padding: 0px;
+    margin: 0px;
+}
+
+iframe{
+    width:100%;
+    height:400px;
+    background-color:#ffffff;
+    font-size:16px;
+    color:#000608;
+}
+
+h1{
+    font-size: 35px;
+    font-family: "Roboto Slab";
+    color: #303030;
+    letter-spacing: 1px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+p{
+    line-height: 16px;
+}
+
+.description{
+    width:100%;
+    font-size:16px;
+    color: #272727;
+    background-color: #ebebeb;
+}
+
+.twitter{
+    width:100%;
+    font-size:16px;
+    color: #272727;
+    padding-left:32px;
+    padding-right:32px;
+    padding-bottom:32px;
+    padding-top:16px;
+    margin: 0px;
+    /*background-color: #ebebeb;*/
+}
