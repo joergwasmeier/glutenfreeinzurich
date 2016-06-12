@@ -166,11 +166,14 @@ p{
     /*background-color: #ebebeb;*/
 }
 
-@media (max-width: 768px)
-{
-    .top, .description{
+@media (max-width: 768px) {
+    .top, .description {
         padding-left: 7px;
         padding-right: 7px;
     }
-}
 
+    .teaser .slogan {
+        font-size: 35px;
+        line-height: 37px;
+    }
+}
