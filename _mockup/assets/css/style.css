@@ -76,7 +76,7 @@
     width: 100%;
     height:100vh;
     background-color: #272727;
-    background-image: url("./img/teaser.jpg");
+    background-image: url("./../img/teaser.jpg");
     background-size: cover;
     background-origin: center center;
     background-repeat: no-repeat;
