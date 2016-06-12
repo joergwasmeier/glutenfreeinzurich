@@ -76,6 +76,7 @@
     width: 100%;
     height:100vh;
     transition: height 999999s;
+    transition-delay: 999999s;
     background-color: #272727;
     background-image: url("./../img/teaser.jpg");
     background-size: cover;
@@ -87,6 +88,8 @@
     background-color: rgba(50,50,50,0.4);
     width: 100vw;
     height: 100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
 }
 
 .teaser .slogan{
@@ -162,3 +165,12 @@ p{
     margin: 0px;
     /*background-color: #ebebeb;*/
 }
+
+@media (max-width: 768px)
+{
+    .top, .description{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
