@@ -244,18 +244,42 @@ b{
     background-repeat: no-repeat;
 }
 
-.descriptionmap{
+.descriptionmapbutton{
     width:100%;
     font-size:16px;
     color: #272727;
     background-image: url("./../img/mapshot.png");
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 110px;
     background-size: cover;
     background-origin: center center;
     background-repeat: no-repeat;
 }
 
+.button {
+    background-color: #008CBA;
+    border-radius: 8px;
+    border: 2px solid #008CBA;
+    color: white;
+    padding: 18px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 30%;
+    background-origin: center center;
+}
+.button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: white;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
 
 .avatar{
     display: block;
@@ -285,4 +309,23 @@ b{
         font-size: 35px;
         line-height: 37px;
     }
+}
+<!-- -->
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
 }
