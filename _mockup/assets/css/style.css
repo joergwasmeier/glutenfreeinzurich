@@ -84,6 +84,58 @@
     background-repeat: no-repeat;
 }
 
+.teasermap{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/flag-switzerland-red-white-brier.jpg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teaseraboutme{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/8333352869_b208f1f1aa_o.jpg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teasercontact{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/do11wnload.jpg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teaserdisclaimer{
+    position:relative;
+    width: 100%;
+    height:100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/11download.jpg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
 .teaser .blend{
     background-color: rgba(50,50,50,0.4);
     width: 100vw;
@@ -92,7 +144,7 @@
     transition-delay: 999999s;
 }
 
-.teaser .slogan{
+.slogan{
     position:absolute;
     top:40%;
     line-height: 60px;
@@ -100,7 +152,6 @@
     text-align: center;
     font-size: 60px;
     font-family: "Roboto Slab";
-
 }
 
 .map{
@@ -131,22 +182,80 @@ h1{
     font-family: "Roboto Slab";
     color: #303030;
     letter-spacing: 1px;
-    line-height: 48px;
     font-weight: bold;
 }
 
-p{
-    font-size: 24px;
+h2{
+    font-size: 30px;
+    font-family: "Roboto Slab";
+    color: #303030;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
+h3{
+    font-size: 25px;
+    font-family: "Roboto Slab";
+    color: #303030;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #303030;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #303030;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 20px;
+}
+
+b{
+    font-weight: bold;
+}
 .description{
     width:100%;
     font-size:16px;
     color: #272727;
-    background-color: #ebebeb;
+    background-color: #ffffff;
     padding-top: 48px;
     padding-bottom: 48px;
 }
+
+.description2{
+    width:100%;
+    font-size:16px;
+    color: #272727;
+    background-image: url("./../img/20160711_201723.jpg");
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.descriptionmap{
+    width:100%;
+    font-size:16px;
+    color: #272727;
+    background-image: url("./../img/mapshot.png");
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
 
 .avatar{
     display: block;
