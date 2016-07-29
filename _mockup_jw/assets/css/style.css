@@ -230,36 +230,33 @@ b{
     background-color: #ffffff;
     padding-top: 48px;
     padding-bottom: 48px;
+    background-image: url("./../img/20160711_201723.jpg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
 }
 
 .description2{
     width:100%;
     font-size:16px;
     color: #272727;
-    background-image: url("./../img/20160711_201723.jpg");
     padding-top: 48px;
     padding-bottom: 48px;
-    background-size: cover;
-    background-origin: center center;
-    background-repeat: no-repeat;
 }
 
 .descriptionmapbutton{
     width:100%;
     font-size:16px;
     color: #272727;
-    background-image: url("./../img/mapshot.png");
-    padding-top: 48px;
-    padding-bottom: 110px;
-    background-size: cover;
-    background-origin: center center;
-    background-repeat: no-repeat;
+    padding-top: 78px;
+    padding-bottom: 140px;
+    background-color: #008CBA;
 }
 
 .button {
     background-color: #008CBA;
     border-radius: 8px;
-    border: 2px solid #008CBA;
+    border: 2px solid #f0f1ef;
     color: white;
     padding: 18px 28px;
     text-align: center;
@@ -268,7 +265,7 @@ b{
     font-size: 24px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 30%;
+    width: 310px;
     background-origin: center center;
 }
 .button {
@@ -280,6 +277,31 @@ b{
     color: #008CBA;
     border: 2px solid #008CBA;
 }
+
+.button_small {
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #008CBA;
+    color: white;
+    padding: 9px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-origin: center center;
+}
+.button_small {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.button_small:hover {
+    background-color: #008CBA;
+    color: #008CBA;
+    border: 2px solid #f0f1ef;
+}
+
 
 .avatar{
     display: block;
