@@ -270,11 +270,10 @@ b{
     cursor: pointer;
     width: 30%;
     background-origin: center center;
-}
-.button {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
+
 .button:hover {
     background-color: white;
     color: #008CBA;
