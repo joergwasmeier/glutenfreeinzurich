@@ -251,7 +251,7 @@ b{
     width:100%;
     font-size:16px;
     color: #272727;
-    background-image: url("./../img/mapshot.png");
+    background-image: url("./../img/Mapshot.PNG");
     padding-top: 48px;
     padding-bottom: 110px;
     background-size: cover;
@@ -425,5 +425,5 @@ b{
 
 .backgroundmappicture{
     height: 400px;
-    background-image: url("./../img/mapshot.png");
+    background-image: url("./../img/Mapshot.png");
 }
