@@ -68,7 +68,7 @@
     color: inherit;
     text-decoration: none;
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "robotoregular";
 }
 
 .teaser{
@@ -151,7 +151,7 @@
     color:rgba(255,255,255,0.9);
     text-align: center;
     font-size: 60px;
-    font-family: "Roboto Slab";
+    font-family: "robotoslab";
 }
 
 .map{
@@ -163,7 +163,7 @@ body{
     height:100%;
     background-color:#ffffff;
     font-size:16px;
-    font-family: Roboto;
+    font-family: "robotoregular";
     color:#000608;
     padding: 0px;
     margin: 0px;
@@ -179,7 +179,7 @@ iframe{
 
 h1{
     font-size: 35px;
-    font-family: "Roboto Slab";
+    font-family: "robotoslab";
     color: #303030;
     letter-spacing: 1px;
     font-weight: bold;
@@ -187,7 +187,7 @@ h1{
 
 h2{
     font-size: 30px;
-    font-family: "Roboto Slab";
+    font-family: "robotoslab";
     color: #303030;
     letter-spacing: 1px;
     font-weight: bold;
@@ -195,7 +195,7 @@ h2{
 
 h3{
     font-size: 25px;
-    font-family: "Roboto Slab";
+    font-family: "robotoslab";
     color: #303030;
     letter-spacing: 1px;
     font-weight: bold;
@@ -203,7 +203,7 @@ h3{
 
 h4{
     font-size: 20px;
-    font-family: "Roboto Slab";
+    font-family: "robotoslab";
     color: #303030;
     letter-spacing: 1px;
     font-weight: bold;
@@ -211,7 +211,7 @@ h4{
 
 h5{
     font-size: 20px;
-    font-family: "Roboto Slab";
+    font-family: "robotoslab";
     color: #303030;
     letter-spacing: 1px;
 }
@@ -266,8 +266,8 @@ b{
     display: inline-block;
     font-size: 24px;
     margin: 4px 2px;
-    cursor: pointer;
     width: 30%;
+    cursor: pointer;
     background-origin: center center;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -278,6 +278,31 @@ b{
     color: #008CBA;
     border: 2px solid #008CBA;
 }
+
+.button_small {
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #008CBA;
+    color: #008CBA;
+    padding: 9px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-origin: center center;
+}
+.button_small {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.button_small:hover {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #f0f1ef;
+}
+
 
 .avatar{
     display: block;
@@ -322,3 +347,21 @@ b{
     font-size: 18px;
 }
 
+.backgroundcellcolorblue{
+    background-color: #171ce4;
+}
+
+.backgroundcellcolorgreen{
+    background-color: #15e40b;
+}
+
+.backgroundcellcolorred{
+    background-color: #e4061f;
+}
+
+.backgroundcellcoloryellow{
+    background-color: #e4da13;
+}
+.margintop{
+    margin-top: 20px;
+}
