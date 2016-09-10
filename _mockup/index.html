@@ -27,6 +27,17 @@
 </head>
 
 <body>
+
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.7";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="top griddy">
     <div class="griddy-col griddy-col-10 griddy-offset-1 topRow">
         <img src="assets/img/LogoSmallWhite.png" class="logo"/>
@@ -119,7 +130,7 @@
                     about your food restrictions.
                     <br/><br/></p>
                 <p><b>For coeliacs:</b>
-                Please look at the flag "IG Zöliakie approved" and go to those restaurants
+                    Please look at the flag "IG Zöliakie approved" and go to those restaurants
                     as they can ensure that there is no contamination. In any case <b>do not forget</b> to always
                     communicate your nutrition restrictions, allergies to the waiter.<br/><br/></p>
                 <p>For other restaurants it is always helpful to have a multi language info card with you.<br/>
@@ -160,20 +171,29 @@
 <div class="footer griddy">
     <div class="griddy-col-10 griddy-offset-1">
         <div class="griddy">
+            <div class="griddy-col-7 griddy-col   ">
+                <p>
+                    <br/>
+                    Do you have a question?<br/>
+                    Please contact me and tell me your ideas.
+                </p>
 
-            <div class="griddy-col-4 griddy-col">
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fglutenfreeinzurich%2F&tabs=timeline&appId"
-                        width="500" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowTransparency="true"></iframe>
-            </div>
-            <div class="griddy-col-4 griddy-col">
-                <a href="mailto:gfinzurich@gmail.com" target="_top" class="button_small">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact me</a>
+                <a href="mailto:glutenfreeinzurich@gmail.com" target="_top" class="button_small">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>Contact me
+                </a>
+                <br/>
 
-            </div>
-            <div class="griddy-col-4 griddy-col">
                 <a href="disclaimer.html"
                    target="_blank" class="button_small">Disclaimer</a>
+            </div>
+
+            <div class="griddy-col-4 griddy-col griddy-offset-1">
+                <div class="fb-page" data-href="https://www.facebook.com/glutenfreeinzurich" data-tabs="timeline"
+                     data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true"
+                     data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/glutenfreeinzurich" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/glutenfreeinzurich">Gluten free in Zurich</a></blockquote>
+                </div>
             </div>
         </div>
     </div>
