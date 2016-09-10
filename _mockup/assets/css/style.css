@@ -78,7 +78,7 @@
     transition: height 999999s;
     transition-delay: 999999s;
     background-color: #272727;
-    background-image: url("./../img/teaser.jpg");
+    background-image: url("./../img/wiesehimmel.jpeg");
     background-size: cover;
     background-origin: center center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@
     transition: height 999999s;
     transition-delay: 999999s;
     background-color: #272727;
-    background-image: url("./../img/flag-switzerland-red-white-brier.jpg");
+    background-image: url("./../img/wiesehimmel.jpeg");
     background-size: cover;
     background-origin: center center;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@
     transition: height 999999s;
     transition-delay: 999999s;
     background-color: #272727;
-    background-image: url("./../img/8333352869_b208f1f1aa_o.jpg");
+    background-image: url("./../img/wiesehimmel.jpeg");
     background-size: cover;
     background-origin: center center;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@
     transition: height 999999s;
     transition-delay: 999999s;
     background-color: #272727;
-    background-image: url("./../img/do11wnload.jpg");
+    background-image: url("./../img/wiesehimmel.jpeg");
     background-size: cover;
     background-origin: center center;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@
     transition: height 999999s;
     transition-delay: 999999s;
     background-color: #272727;
-    background-image: url("./../img/11download.jpg");
+    background-image: url("./../img/wiesehimmel.jpeg");
     background-size: cover;
     background-origin: center center;
     background-repeat: no-repeat;
@@ -236,7 +236,6 @@ b{
     width:100%;
     font-size:16px;
     color: #272727;
-    background-image: url("./../img/20160711_201723.jpg");
     padding-top: 48px;
     padding-bottom: 48px;
     background-size: cover;
