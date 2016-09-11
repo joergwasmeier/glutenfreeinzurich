@@ -80,7 +80,7 @@
     background-color: #272727;
     background-image: url("./../img/20160910_180441.jpg");
     background-size: cover;
-    background-origin: center center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -227,6 +227,7 @@ p{
 b{
     font-weight: bold;
 }
+
 .description{
     width:100%;
     font-size:16px;
@@ -242,9 +243,6 @@ b{
     color: #ffffff;
     padding-top: 48px;
     padding-bottom: 48px;
-    background-size: cover;
-    background-origin: center center;
-    background-repeat: no-repeat;
 }
 
 .descriptionmapbutton{
@@ -272,7 +270,7 @@ b{
     margin: 4px 2px;
     width: 30%;
     cursor: pointer;
-    background-origin: center center;
+    background-position: center center;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
@@ -370,21 +368,8 @@ b{
     /*background-color: #ebebeb;*/
 }
 
-@media (max-width: 768px) {
-    .top, .description {
-        padding-left: 7px;
-        padding-right: 7px;
-    }
-
-    .teaser .slogan {
-        font-size: 35px;
-        line-height: 37px;
-    }
-}
-<!-- -->
 .container {
-    position: relative;
-    height: 348px;
+
 }
 
 .center {
@@ -392,6 +377,7 @@ b{
     left: 0;
     top: 50%;
     width: 100%;
+    margin-top: -32px;
     text-align: center;
     font-size: 18px;
 }
@@ -424,9 +410,12 @@ b{
 }
 
 .backgroundmappicture{
+    position: relative;
     height: 400px;
     background-image: url("./../img/Mapshot.png");
 }
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -436,11 +425,106 @@ b{
     }
 
     h1{
-        font-size: 20px;
+        font-size: 25px;
+        line-height: 30px;
     }
 
     h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    h4{
+        font-size: 13px;
+    }
+
+    h5{
+        font-size: 12px;
+    }
+
+    .top, .description, .description2 {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .teaser .slogan {
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+    .slogan{
+        font-size: 30px;
+    }
+
+    .description{
+        font-size:12px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .description2{
+        font-size:16px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .descriptionmapbutton{
+        font-size:16px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .button {
+        padding: 20px 23px;
         font-size: 18px;
+        margin: 4px 2px;
+        width: 80%;
+    }
+
+    .button_small {
+        padding: 20px 23px;
+        font-size: 18px;
+        margin: 4px 2px;
+        width: 80%;
+    }
+
+    .button_small_white_background {
+        padding: 20px 23px;
+        font-size: 18px;
+        margin: 0px 0px;
+        width:80%;
+        margin-left: 10%;
 
     }
+
+    .buttonmargin {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
+
+    .buttonmarginDisclaimerbacktop {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .buttonmarginDisclaimerbackbottom {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .buttonmargin40 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .backgroundmappicture{
+        height: 300px;
+        background-image: url("./../img/Mapshot.png");
+    }
+
 }
