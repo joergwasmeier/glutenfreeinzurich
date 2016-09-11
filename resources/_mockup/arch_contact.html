@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Glutenfreeinzurich.ch</title>
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://npmcdn.com/griddy.css@1.0.0/dist/griddy.min.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <script>
+        document.addEventListener("scroll", function () {
+            if (document.getElementsByClassName("top") && window.pageYOffset > 290) {
+                document.getElementsByClassName("top")[0].classList.add("white");
+            }
+
+            if (document.getElementsByClassName("top") && window.pageYOffset < 290) {
+                document.getElementsByClassName("top")[0].classList.remove("white");
+            }
+
+        });
+    </script>
+</head>
+
+<body>
+<div class="top griddy">
+    <div class="griddy-col griddy-col-10 griddy-offset-1 topRow">
+        <img src="assets/img/LogoSmallWhite.png" class="logo"/>
+        <img src="assets/img/LogoSmallBlue.png" class="logoBlue"/>
+
+        <ul>
+            <li><a href="./glutenfreemap.html">Mapview</a></li>
+            <!--    <li><a href="./glutenfreelist.html">Listview</a></li> -->
+            <li><a href="./aboutme.html">About Me</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="teasercontact griddy">
+    <div class="griddy-col griddy-col-10 griddy-offset-1 slogan">
+        Let's get in touch, send me your feedback
+    </div>
+
+    <div class="blend">
+
+    </div>
+</div>
+
+
+EMAIL
+
+
+
+</body>
+
+</html>

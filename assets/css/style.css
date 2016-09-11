@@ -1,0 +1,558 @@
+* {
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 44px;
+    color: #e6e6e6;
+    position: fixed;
+    z-index: 10;
+    transition: all 0.5s;
+    border-bottom: solid 1px rgba(60, 60, 60, 0);
+    color: #e6e6e6;
+}
+
+.topRow {
+    position: relative;
+}
+
+.top.white {
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: solid 1px rgba(60, 60, 60, 0.4);
+    color: #126094;
+}
+
+.top .logo {
+    width: 44px;
+    height: 44px;
+    margin-top: 9px;
+    position: absolute;
+}
+
+.top .logoBlue {
+    width: 44px;
+    height: 44px;
+    margin-top: 9px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.top.white .logoBlue {
+    opacity: 1;
+}
+
+.top ul {
+    font-size: 12px;
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    height: 64px;
+    width: 100%;
+    text-align: right;
+    color: inherit;
+}
+
+.top ul li {
+    display: inline;
+    padding-left: 20px;
+    line-height: 63px;
+}
+
+.top ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "robotoregular";
+}
+
+.teaser {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/20160910_180441.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.teasermap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/wiesehimmel.jpeg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teaseraboutme {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/wiesehimmel.jpeg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teasercontact {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #272727;
+    background-image: url("./../img/wiesehimmel.jpeg");
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teaserdisclaimer {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+    background-color: #008CBA;
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.teaser .blend {
+    background-color: rgba(50, 50, 50, 0.4);
+    width: 100vw;
+    height: 100vh;
+    transition: height 999999s;
+    transition-delay: 999999s;
+}
+
+.slogan {
+    position: absolute;
+    top: 40%;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 60px;
+    font-family: "robotoslab";
+}
+
+.map {
+    display: block;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: "robotoregular";
+    color: #000608;
+    padding: 0px;
+    margin: 0px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #000608;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: "robotoslab";
+    color: #303030;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "robotoslab";
+    color: #303030;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "robotoslab";
+    color: #303030;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "robotoslab";
+    color: #303030;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: "robotoslab";
+    color: #303030;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.whitetext {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+b {
+    font-weight: bold;
+}
+
+.description {
+    width: 100%;
+    font-size: 16px;
+    color: #272727;
+    background-color: #ffffff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.description2 {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.descriptionmapbutton {
+    width: 100%;
+    font-size: 16px;
+    color: #272727;
+    background-image: url("./../img/Mapshot.PNG");
+    padding-top: 48px;
+    padding-bottom: 110px;
+    background-size: cover;
+    background-origin: center center;
+    background-repeat: no-repeat;
+}
+
+.button {
+    background-color: #008CBA;
+    border-radius: 8px;
+    border: 2px solid #008CBA;
+    color: white;
+    padding: 20px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    width: 30%;
+    cursor: pointer;
+    background-position: center center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+
+.button_small {
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #008CBA;
+    color: #008CBA;
+    padding: 20px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-origin: center center;
+}
+
+.button_small {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button_small:hover {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+.button_small_white_background {
+    background-color: #008CBA;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 20px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-origin: center center;
+    width: 80%;
+}
+
+.button_small_white_background {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button_small_white_background:hover {
+    background-color: #ffffff;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+
+.buttonmargin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttonmarginDisclaimerbacktop {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.buttonmarginDisclaimerbackbottom {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.buttonmargin40 {
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.avatar {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.twitter {
+    width: 100%;
+    font-size: 16px;
+    color: #272727;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-top: 16px;
+    margin: 0px;
+    /*background-color: #ebebeb;*/
+}
+
+.container {
+
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin-top: -32px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.backgroundcellcolorblue {
+    background-color: #008CBA;
+}
+
+.realfooter {
+    height: 80px;
+}
+
+.realfooter_text {
+    line-height: 80px;
+}
+
+.backgroundcellcolorgreen {
+    background-color: #15e40b;
+}
+
+.backgroundcellcolorred {
+    background-color: #e4061f;
+}
+
+.backgroundcellcoloryellow {
+    background-color: #e4da13;
+}
+
+.margintop {
+    margin-top: 20px;
+}
+
+.backgroundmappicture {
+    position: relative;
+    height: 400px;
+    background-image: url("./../img/Mapshot.png");
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 23px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 17px;
+        line-height: 22px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .top, .description, .description2 {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .teaser .slogan {
+        font-size: 35px;
+        line-height: 37px;
+    }
+
+    .slogan {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 16px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .description2 {
+        font-size: 16px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .descriptionmapbutton {
+        font-size: 16px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .button {
+        padding: 20px 23px;
+        font-size: 18px;
+        margin: 4px 2px;
+        width: 80%;
+    }
+
+    .button_small {
+        padding: 20px 23px;
+        font-size: 18px;
+        margin: 4px 2px;
+        width: 80%;
+    }
+
+    .button_small_white_background {
+        padding: 20px 23px;
+        font-size: 18px;
+        margin: 0px 0px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .buttonmargin {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
+
+    .buttonmarginDisclaimerbacktop {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .buttonmarginDisclaimerbackbottom {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .buttonmargin40 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .backgroundmappicture {
+        height: 300px;
+        background-image: url("./../img/Mapshot.png");
+    }
+
+}
