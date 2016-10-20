@@ -71,6 +71,10 @@
     font-family: "robotoregular";
 }
 
+.LangSelected {
+    color:#e4061f !important;
+}
+
 .teaser {
     position: relative;
     width: 100%;
