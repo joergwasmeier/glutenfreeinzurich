@@ -416,7 +416,7 @@ b {
 
 .link
 {
-    color: white;
+    color: white !important;
     text-decoration: none;
     background-color: none;
 }
