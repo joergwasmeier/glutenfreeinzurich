@@ -414,6 +414,13 @@ b {
     line-height: 80px;
 }
 
+.link
+{
+    color: white;
+    text-decoration: none;
+    background-color: none;
+}
+
 .backgroundcellcolorgreen {
     background-color: #15e40b;
 }
