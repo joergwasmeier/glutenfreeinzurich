@@ -7,15 +7,18 @@ a {
 }
 
 .optin{
-	display: block;
+	display: flex;
 	position: fixed;
 	background-color: rgba(50, 50, 50, 0.8);
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
+	min-height: 100px;
 	
 	padding-left: 16px;
 	padding-right: 16px;
+	align-items: center;
+	justify-content: space-between
 }
 
 .optin-text{
@@ -24,7 +27,7 @@ a {
 }
 
 .optin-button{
-	position: absolute;
+
 	right: 16px;
 	top: 10px;
 	font-size: 16px !important;
@@ -470,6 +473,10 @@ b {
 }
 
 @media screen and (max-width: 768px) {
+	.optin{
+		flex-direction: column
+	}
+
     p {
         font-size: 16px;
         line-height: 21px;
